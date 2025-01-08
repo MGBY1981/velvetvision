@@ -1,6 +1,10 @@
 # velvetvision
 Amiga 500 compatible demo coded in C showing short full screen video clips with music
 
+if you don't want to compile the project and just see the result, visit YouTube:
+
+https://youtu.be/ULFCEseYcOk
+
 # development notes:
 - this demo was not intended to represent perfectly structured clean Amiga C code. It is, more or less, spaghetti code. Quite ugly, not efficient, but it does what it should.
 - I am in no way an experienced Amiga developer. My background was Java and JEE for twenty years. So concepts like efficient memory allocation and manual garbage collection were not quite familiar to me. Furthermore I had no background in Amiga Assembler programming.
