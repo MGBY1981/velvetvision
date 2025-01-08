@@ -18,7 +18,7 @@ Amiga 500 compatible demo coded in C showing short full screen video clips with 
 # improvement proposals:
 - memory management could be improved if bitmaps would be buffered in fast RAM while animation is already running in chip mem. Unfortunately I could not figure out how to do that in a stable way. So this code loads everything into chip mem, runs the animation, clears chip mem, loads the next animation. Not highly efficient but it works. If you want to improve this, feel free to change my code and send a commit proposal. If it runs, I will keep it :)
 - if it is possible to shift bitmaps fast enough from fast RAM to chip RAM while the animation is runnig, the duration of the videos could be increased. But I'm not sure if the Amiga memory is really capable of doing this.
-- double buffering. Currently I unly use single buffering to save memory and have longer animations. Double buffering would of course reduce flashing artifactss
+- double buffering. Currently I only use single buffering to save memory because I want to get the maximum out of the tiny chip mem. Double buffering would of course reduce flashing artifactss
 
 
 This code is licensed under GNU GPL and can be used for your own projects as long as you mention the source
